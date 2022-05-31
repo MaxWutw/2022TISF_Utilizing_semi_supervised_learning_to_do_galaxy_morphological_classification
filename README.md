@@ -33,7 +33,9 @@ recognition.
 ## Data
 You can install the dataset from: <br>
 - EFIGI dataset: https://www.astromatic.net/projects/efigi/
-- Galaxy Zoo 2: https://www.kaggle.com/datasets/jaimetrickz/galaxy-zoo-2-images
+- Galaxy Zoo 2: https://www.kaggle.com/datasets/jaimetrickz/galaxy-zoo-2-images <br/>
+
+After downlaod the dataset, remember to tune the training, validation, testing path in the code.
 ## Usage
 In our study, there are two tasks, the first task is about three type galaxy classification, the other is about eight type galaxy classification.<br/>
 If you want to train a three type galaxy classifier, you can find out the source code in three_type folder.
