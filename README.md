@@ -6,8 +6,8 @@
 - scikit_learn == 0.24.2
 - matplotlib == 3.4.2
 - numpy == 1.19.5
-- opencv-python == 4.5.3 <br><br>
-Dependencies can be installed using the following command
+- opencv-python == 4.5.3 <br/>
+Dependencies can be installed using the following command: <br/>
 ```pip3 install -r requirements.txt```
 ## Abstract
 In this study, in order to classify the pictures of galaxies automatically, we have
