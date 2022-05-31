@@ -1,5 +1,5 @@
 # Utilizing Semi Supervised Learning To Do Galaxy Morphological Classification
-<img src="NGC3992.jpg"><img src="Hubble_Sequence.jpg" width="600" height="400">
+<img src="NGC3992.jpg" width="500" height="400"><img src="Hubble_Sequence.jpg" width="500" height="400">
 ## Requirements
 - Python 3.8.11
 - torch == 1.9.0 + cu102
