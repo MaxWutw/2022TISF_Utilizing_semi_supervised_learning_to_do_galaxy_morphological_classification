@@ -2,11 +2,13 @@
 ## Requirements
 - Python 3.8.11
 - torch == 1.9.0 + cu102
+- torchvision == 0.10.0+cu102
 - scikit_learn == 0.24.2
 - matplotlib == 3.4.2
 - numpy == 1.19.5
 - opencv-python == 4.5.3 <br>
-You can utilize `pip3 install -r requirements.txt` to 
+Dependencies can be installed using the following command
+```pip3 install -r requirements.txt```
 ## Abstract
 In this study, in order to classify the pictures of galaxies automatically, we have
 built a model of convolutional neural networks (CNN). With the optimized VGG-16
