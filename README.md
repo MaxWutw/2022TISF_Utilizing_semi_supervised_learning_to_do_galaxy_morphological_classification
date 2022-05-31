@@ -5,7 +5,7 @@
 - scikit_learn == 0.24.2
 - matplotlib == 3.4.2
 - numpy == 1.19.5
-- opencv-python == 4.5.3
+- opencv-python == 4.5.3 <br>
 You can utilize 'pip3 install -r requirements.txt' to 
 ## Abstract
 In this study, in order to classify the pictures of galaxies automatically, we have
