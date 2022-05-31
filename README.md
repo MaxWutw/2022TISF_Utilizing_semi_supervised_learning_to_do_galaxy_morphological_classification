@@ -31,14 +31,16 @@ solution when well-recognized galaxy patterns are not enough for model training,
 we hope the method could paved a new way for automatic astronomy patterns
 recognition.
 ## Data
-
+You can install the dataset from: <br>
+- EFIGI dataset: https://www.astromatic.net/projects/efigi/
+- Galaxy Zoo 2: https://www.kaggle.com/datasets/jaimetrickz/galaxy-zoo-2-images
 ## Usage
 In our study, there are two tasks, the first task is about three type galaxy classification, the other is about eight type galaxy classification.<br/>
 If you want to train a three type galaxy classifier, you can find out the source code in three_type folder.
 ```
-python3 train_our_CNN.py // In this code, we construct the CNN on ourself.
-python3 train_VGG16.py // In this code, we utilize VGG16 to be our CNN model.
-python3 clustering.py // In this code, we can have a unsupervised learning method, by using t-sne dimension reduction and K-means algorithm.
+python3 train_our_CNN.py ## In this code, we construct the CNN on ourself.
+python3 train_VGG16.py ## In this code, we utilize VGG16 to be our CNN model.
+python3 clustering.py ## In this code, we can have a unsupervised learning method, by using t-sne dimension reduction and K-means algorithm.
 ```
 
 ## Reference
