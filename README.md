@@ -6,7 +6,7 @@
 - matplotlib == 3.4.2
 - numpy == 1.19.5
 - opencv-python == 4.5.3 <br>
-You can utilize \'pip3 install -r requirements.txt' to 
+You can utilize `pip3 install -r requirements.txt` to 
 ## Abstract
 In this study, in order to classify the pictures of galaxies automatically, we have
 built a model of convolutional neural networks (CNN). With the optimized VGG-16
