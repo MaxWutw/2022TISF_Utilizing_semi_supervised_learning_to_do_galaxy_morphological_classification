@@ -37,6 +37,7 @@ You can install the dataset from: <br>
 
 After downlaod the dataset, remember to tune the training, validation, testing path in the code.
 ## Usage
+### Three type galaxy classification
 In our study, there are two tasks, the first task is about three type galaxy classification, the other is about eight type galaxy classification.<br/>
 If you want to train a three type galaxy classifier, you can find out the source code in three_type folder.
 ```
@@ -44,7 +45,14 @@ python3 train_our_CNN.py ## In this code, we construct the CNN on ourself.
 python3 train_VGG16.py ## In this code, we utilize VGG16 to be our CNN model.
 python3 clustering.py ## In this code, we can have a unsupervised learning method, by using t-sne dimension reduction and K-means algorithm.
 ```
-
+### Eight type galaxy classification
+```
+python3 DCGAN_galaxy.py ## Generate a galaxy image by utilizing DCGAN.
+python3 eight_type_explainable_ai_.py ## Grad-CAM implementation.
+python3 eight_type_tsne_clustering.py ## Unsupervised learning by using t-sne dimension reduction and K-means algorithm.
+python3 train_autoencoder.py ## Train a AutoEncoder, to be our pretrained.
+python3 semi_supervised_train.py ##  The main topic in the study, Semi-Supervised machine learning.
+```
 ## Reference
 - Baillard, A., Bertin, E., De Lapparent, V., Fouqué, P., Arnouts, S., Mellier, Y., ... & Tasca, L. (2011). The EFIGI catalogue of 4458 nearby galaxies with detailed morphology. Astronomy & Astrophysics, 532, A74.
 - Willett, K. W., Lintott, C. J., Bamford, S. P., Masters, K. L., Simmons, B. D., Casteels, K. R., ... & Thomas, D. (2013). Galaxy Zoo 2: detailed morphological classifications for 304 122 galaxies from the Sloan Digital Sky Survey. Monthly Notices of the Royal Astronomical Society, 435(4), 2835-2860.
