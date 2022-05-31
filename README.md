@@ -40,12 +40,15 @@ After downlaod the dataset, remember to tune the training, validation, testing p
 ### Three type galaxy classification
 In our study, there are two tasks, the first task is about three type galaxy classification, the other is about eight type galaxy classification.<br/>
 If you want to train a three type galaxy classifier, you can find out the source code in three_type folder.
+### Three type galaxy classification
+`cd eight_type` <br/>
 ```
 python3 train_our_CNN.py ## In this code, we construct the CNN on ourself.
 python3 train_VGG16.py ## In this code, we utilize VGG16 to be our CNN model.
 python3 clustering.py ## In this code, we can have a unsupervised learning method, by using t-sne dimension reduction and K-means algorithm.
 ```
 ### Eight type galaxy classification
+`cd eight_type` <br/>
 ```
 python3 DCGAN_galaxy.py ## Generate a galaxy image by utilizing DCGAN.
 python3 eight_type_explainable_ai_.py ## Grad-CAM implementation.
