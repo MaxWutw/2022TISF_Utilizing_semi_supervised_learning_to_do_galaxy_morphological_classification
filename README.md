@@ -38,6 +38,7 @@ If you want to train a three type galaxy classifier, you can find out the source
 ```
 python3 train_our_CNN.py // In this code, we construct the CNN on ourself.
 python3 train_VGG16.py // In this code, we utilize VGG16 to be our CNN model.
+python3 clustering.py // In this code, we can have a unsupervised learning method, by using t-sne dimension reduction and K-means algorithm.
 ```
 
 ## Reference
