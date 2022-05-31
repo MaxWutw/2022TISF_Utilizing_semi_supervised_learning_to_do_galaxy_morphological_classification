@@ -6,7 +6,7 @@
 - scikit_learn == 0.24.2
 - matplotlib == 3.4.2
 - numpy == 1.19.5
-- opencv-python == 4.5.3 <br>
+- opencv-python == 4.5.3 <br><br>
 Dependencies can be installed using the following command
 ```pip3 install -r requirements.txt```
 ## Abstract
